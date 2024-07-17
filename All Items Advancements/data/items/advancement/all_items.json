@@ -982,12 +982,12 @@
         ]
       }
     },
-    "raw_porkchop": {
+    "porkchop": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:raw_porkchop"
+            "items": "minecraft:porkchop"
           }
         ]
       }
@@ -1299,7 +1299,7 @@
     ], [
       "flint"
     ], [
-      "raw_porkchop"
+      "porkchop"
     ], [
       "cooked_porkchop"
     ], [
