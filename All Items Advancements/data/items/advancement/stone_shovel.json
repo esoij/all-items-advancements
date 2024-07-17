@@ -1,0 +1,32 @@
+{
+  "parent": "items:cobblestone",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_shovel"
+    },
+    "title": "Stone Shovel",
+    "description": "Obtain Stone Shovel",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stone_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_shovel"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stone_shovel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

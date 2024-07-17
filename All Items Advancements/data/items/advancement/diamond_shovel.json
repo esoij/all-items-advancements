@@ -1,0 +1,32 @@
+{
+  "parent": "items:diamond",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_shovel"
+    },
+    "title": "Diamond Shovel",
+    "description": "Obtain Diamond Shovel",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamond_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_shovel"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_shovel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

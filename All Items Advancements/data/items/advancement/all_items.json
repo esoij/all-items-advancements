@@ -611,6 +611,86 @@
           }
         ]
       }
+    },
+    "stone_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_sword"
+          }
+        ]
+      }
+    },
+    "stone_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_axe"
+          }
+        ]
+      }
+    },
+    "stone_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe"
+          }
+        ]
+      }
+    },
+    "stone_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_shovel"
+          }
+        ]
+      }
+    },
+    "diamond_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_sword"
+          }
+        ]
+      }
+    },
+    "diamond_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe"
+          }
+        ]
+      }
+    },
+    "diamond_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe"
+          }
+        ]
+      }
+    },
+    "diamond_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_shovel"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -732,9 +812,25 @@
       "wooden_axe"
     ], [
       "wooden_pickaxe"
+    ], [
+      "wooden_shovel"
+    ], [
+      "stone_sword"
+    ], [
+      "stone_axe"
+    ], [
+      "stone_pickaxe"
+    ], [
+      "stone_shovel"
+    ], [
+      "diamond_sword"
+    ], [
+      "diamond_axe"
+    ], [
+      "diamond_pickaxe"
     ],
     [
-      "wooden_shovel"
+      "diamond_shovel"
     ]
   ],
   "sends_telemetry_event": true

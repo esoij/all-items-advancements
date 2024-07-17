@@ -1,0 +1,32 @@
+{
+  "parent": "items:diamond",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_axe"
+    },
+    "title": "Diamond Axe",
+    "description": "Obtain Diamond Axe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamond_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_axe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_axe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
