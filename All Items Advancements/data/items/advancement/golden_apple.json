@@ -1,0 +1,32 @@
+{
+  "parent": "items:apple",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": "Golden Apple",
+    "description": "Obtain Golden Apple",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_apple"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "golden_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
