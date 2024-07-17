@@ -1,23 +1,23 @@
 {
-  "parent": "items:string",
+  "parent": "items:gold_ingot",
   "display": {
     "icon": {
-      "id": "minecraft:white_wool"
+      "id": "minecraft:golden_axe"
     },
-    "title": "White Wool",
-    "description": "Obtain White Wool",
+    "title": "Golden Axe",
+    "description": "Obtain Golden Axe",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "white_wool": {
+    "golden_axe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:white_wool"
+            "items": "minecraft:golden_axe"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "white_wool"
+      "golden_axe"
     ]
   ],
   "sends_telemetry_event": true

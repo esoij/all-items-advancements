@@ -1,23 +1,23 @@
 {
-  "parent": "items:string",
+  "parent": "items:gold_ingot",
   "display": {
     "icon": {
-      "id": "minecraft:white_wool"
+      "id": "minecraft:golden_sword"
     },
-    "title": "White Wool",
-    "description": "Obtain White Wool",
+    "title": "Golden Sword",
+    "description": "Obtain Golden Sword",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "white_wool": {
+    "golden_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:white_wool"
+            "items": "minecraft:golden_sword"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "white_wool"
+      "golden_sword"
     ]
   ],
   "sends_telemetry_event": true

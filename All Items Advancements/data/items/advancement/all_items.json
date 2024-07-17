@@ -701,6 +701,106 @@
           }
         ]
       }
+    },
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      }
+    },
+    "golden_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_sword"
+          }
+        ]
+      }
+    },
+    "golden_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_axe"
+          }
+        ]
+      }
+    },
+    "golden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_pickaxe"
+          }
+        ]
+      }
+    },
+    "golden_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_shovel"
+          }
+        ]
+      }
+    },
+    "bowl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bowl"
+          }
+        ]
+      }
+    },
+    "mushroom_stew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mushroom_stew"
+          }
+        ]
+      }
+    },
+    "gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gunpowder"
+          }
+        ]
+      }
+    },
+    "string": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:string"
+          }
+        ]
+      }
+    },
+    "feather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:feather"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -840,9 +940,29 @@
       "diamond_pickaxe"
     ], [
       "diamond_shovel"
+    ], [
+      "stick"
+    ], [
+      "crafting_table"
+    ], [
+      "golden_sword"
+    ], [
+      "golden_axe"
+    ], [
+      "golden_pickaxe"
+    ], [
+      "golden_shovel"
+    ], [
+      "bowl"
+    ], [
+      "mushroom_stew"
+    ], [
+      "gunpowder"
+    ], [
+      "string"
     ],
     [
-      "stick"
+      "feather"
     ]
   ],
   "sends_telemetry_event": true

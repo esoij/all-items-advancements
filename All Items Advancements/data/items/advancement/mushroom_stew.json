@@ -1,23 +1,23 @@
 {
-  "parent": "items:string",
+  "parent": "items:bowl",
   "display": {
     "icon": {
-      "id": "minecraft:white_wool"
+      "id": "minecraft:mushroom_stew"
     },
-    "title": "White Wool",
-    "description": "Obtain White Wool",
+    "title": "Mushroom Stew",
+    "description": "Obtain Mushroom Stew",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "white_wool": {
+    "mushroom_stew": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:white_wool"
+            "items": "minecraft:mushroom_stew"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "white_wool"
+      "mushroom_stew"
     ]
   ],
   "sends_telemetry_event": true
