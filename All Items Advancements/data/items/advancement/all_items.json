@@ -961,6 +961,46 @@
           }
         ]
       }
+    },
+    "furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:furnace"
+          }
+        ]
+      }
+    },
+    "flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flint"
+          }
+        ]
+      }
+    },
+    "raw_porkchop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raw_porkchop"
+          }
+        ]
+      }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_porkchop"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1152,9 +1192,17 @@
       "golden_chestplate"
     ], [
       "golden_leggings"
+    ], [
+      "golden_boots"
+    ], [
+      "furnace"
+    ], [
+      "flint"
+    ], [
+      "raw_porkchop"
     ],
     [
-      "golden_boots"
+      "cooked_porkchop"
     ]
   ],
   "sends_telemetry_event": true

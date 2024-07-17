@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_porkchop"
+    },
+    "title": "Raw Porkchop",
+    "description": "Obtain Raw Porkchop",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "raw_porkchop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:raw_porkchop"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "raw_porkchop"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

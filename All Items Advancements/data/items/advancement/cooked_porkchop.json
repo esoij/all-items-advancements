@@ -1,0 +1,32 @@
+{
+  "parent": "items:raw_porkchop",
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_porkchop"
+    },
+    "title": "Cooked Porkchop",
+    "description": "Obtain Cooked Porkchop",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cooked_porkchop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_porkchop"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cooked_porkchop"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

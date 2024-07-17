@@ -1,0 +1,32 @@
+{
+  "parent": "items:gravel",
+  "display": {
+    "icon": {
+      "id": "minecraft:flint"
+    },
+    "title": "Flint",
+    "description": "Obtain Flint",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flint"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "flint"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
