@@ -691,6 +691,16 @@
           }
         ]
       }
+    },
+    "stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -828,9 +838,11 @@
       "diamond_axe"
     ], [
       "diamond_pickaxe"
+    ], [
+      "diamond_shovel"
     ],
     [
-      "diamond_shovel"
+      "stick"
     ]
   ],
   "sends_telemetry_event": true

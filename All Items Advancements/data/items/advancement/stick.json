@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_planks",
+  "display": {
+    "icon": {
+      "id": "minecraft:stick"
+    },
+    "title": "Stick",
+    "description": "Obtain Stick",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
