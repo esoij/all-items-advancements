@@ -1081,6 +1081,26 @@
           }
         ]
       }
+    },
+    "rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rail"
+          }
+        ]
+      }
+    },
+    "minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:minecart"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1296,9 +1316,13 @@
       "bucket"
     ], [
       "water_bucket"
+    ], [
+      "lava_bucket"
+    ], [
+      "rail"
     ],
     [
-      "lava_bucket"
+      "minecart"
     ]
   ],
   "sends_telemetry_event": true

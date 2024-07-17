@@ -1,0 +1,32 @@
+{
+  "parent": "items:iron_ingot",
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": "Rail",
+    "description": "Obtain Rail",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rail"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rail"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": "Minecart",
+    "description": "Obtain Minecart",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:minecart"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecart"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
