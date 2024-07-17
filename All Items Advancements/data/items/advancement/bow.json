@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_planks",
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": "Bow",
+    "description": "Obtain Bow",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bow"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bow"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:iron_ingot",
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_boots"
+    },
+    "title": "Chainmail Boots",
+    "description": "Obtain Chainmail Boots",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chainmail_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chainmail_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "chainmail_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

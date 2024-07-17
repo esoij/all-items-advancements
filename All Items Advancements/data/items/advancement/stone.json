@@ -1,0 +1,32 @@
+{
+  "parent": "items:cobblestone",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone"
+    },
+    "title": "Stone",
+    "description": "Obtain Stone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

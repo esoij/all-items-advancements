@@ -1,0 +1,32 @@
+{
+  "parent": "items:dirt",
+  "display": {
+    "icon": {
+      "id": "minecraft:gravel"
+    },
+    "title": "Gravel",
+    "description": "Obtain Gravel",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gravel"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gravel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

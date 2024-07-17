@@ -1,0 +1,32 @@
+{
+  "parent": "items:cobblestone",
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_cobblestone"
+    },
+    "title": "Mossy Cobblestone",
+    "description": "Obtain Mossy Cobblestone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mossy_cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mossy_cobblestone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mossy_cobblestone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

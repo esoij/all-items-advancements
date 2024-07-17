@@ -1,0 +1,32 @@
+{
+  "parent": "items:iron_ingot",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": "Iron Pickaxe",
+    "description": "Obtain Iron Pickaxe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

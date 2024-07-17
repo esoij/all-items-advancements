@@ -1,0 +1,32 @@
+{
+  "parent": "items:iron_ingot",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": "Iron Sword",
+    "description": "Iron Sword",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iron_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_sword"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_sword"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

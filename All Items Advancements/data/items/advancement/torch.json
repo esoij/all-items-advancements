@@ -1,0 +1,32 @@
+{
+  "parent": "items:coal",
+  "display": {
+    "icon": {
+      "id": "minecraft:torch"
+    },
+    "title": "Torch",
+    "description": "Obtain Torch",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:torch"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "torch"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

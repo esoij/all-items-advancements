@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
+    },
+    "title": "Leather Leggings",
+    "description": "Obtain Leather Leggings",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "leather_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_leggings"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "leather_leggings"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

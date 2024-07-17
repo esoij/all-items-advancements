@@ -1,0 +1,32 @@
+{
+  "parent": "items:grass_block",
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom"
+    },
+    "title": "Red Mushroom",
+    "description": "Obtain Red Mushroom",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_mushroom"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "red_mushroom"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

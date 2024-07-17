@@ -1,0 +1,32 @@
+{
+  "parent": "items:iron_ingot",
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_helmet"
+    },
+    "title": "Chainmail Helmet",
+    "description": "Obtain Chainmail Helmet",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chainmail_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chainmail_helmet"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "chainmail_helmet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

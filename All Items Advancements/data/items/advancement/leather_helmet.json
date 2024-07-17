@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
+    },
+    "title": "Leather Helmet",
+    "description": "Obtain Leather Helmet",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "leather_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_helmet"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "leather_helmet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_log",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_leaves"
+    },
+    "title": "Oak Leaves",
+    "description": "Obtain Oak Leaves",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oak_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_leaves"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_leaves"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

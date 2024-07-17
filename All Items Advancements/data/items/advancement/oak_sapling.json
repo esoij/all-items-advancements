@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_leaves",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": "Oak Sapling",
+    "description": "Obtain Oak Sapling",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_sapling"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_sapling"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

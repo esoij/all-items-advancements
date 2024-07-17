@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:white_wool"
+    },
+    "title": "White Wool",
+    "description": "Obtain White Wool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "white_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "white_wool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

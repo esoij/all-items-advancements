@@ -1,0 +1,32 @@
+{
+  "parent": "items:grass_block",
+  "display": {
+    "icon": {
+      "id": "minecraft:poppy"
+    },
+    "title": "Poppy",
+    "description": "Obtain Poppy",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "poppy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poppy"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "poppy"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

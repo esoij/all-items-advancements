@@ -1,0 +1,32 @@
+{
+  "parent": "items:sand",
+  "display": {
+    "icon": {
+      "id": "minecraft:glass"
+    },
+    "title": "Glass",
+    "description": "Obtain Glass",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "glass"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

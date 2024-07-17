@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_log",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_planks"
+    },
+    "title": "Oak Planks",
+    "description": "Obtain Oak Planks",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oak_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_planks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_planks"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

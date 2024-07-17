@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:sponge"
+    },
+    "title": "Sponge",
+    "description": "Obtain Sponge",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sponge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sponge"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sponge"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

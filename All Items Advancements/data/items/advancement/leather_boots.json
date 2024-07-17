@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": "Leather Boots",
+    "description": "Obtain Leather Boots",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "leather_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "leather_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

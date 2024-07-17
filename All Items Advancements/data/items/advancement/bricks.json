@@ -1,0 +1,32 @@
+{
+  "parent": "items:dirt",
+  "display": {
+    "icon": {
+      "id": "minecraft:bricks"
+    },
+    "title": "Bricks",
+    "description": "Obtain Bricks",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bricks"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bricks"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

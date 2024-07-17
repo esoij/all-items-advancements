@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_leaves",
+  "display": {
+    "icon": {
+      "id": "minecraft:apple"
+    },
+    "title": "Apple",
+    "description": "Obtain Apple",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:apple"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

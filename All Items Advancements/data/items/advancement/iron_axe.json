@@ -1,0 +1,32 @@
+{
+  "parent": "items:iron_ingot",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": "Iron Axe",
+    "description": "Obtain Iron Axe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iron_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_axe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_axe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

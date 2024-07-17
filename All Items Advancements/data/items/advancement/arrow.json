@@ -1,0 +1,32 @@
+{
+  "parent": "items:bow",
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": "Arrow",
+    "description": "Obtain Arrow",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "arrow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:arrow"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "arrow"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
