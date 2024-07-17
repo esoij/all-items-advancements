@@ -1,0 +1,32 @@
+{
+  "parent": "items:stick",
+  "display": {
+    "icon": {
+      "id": "minecraft:ladder"
+    },
+    "title": "Ladder",
+    "description": "Obtain Ladder",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ladder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ladder"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ladder"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

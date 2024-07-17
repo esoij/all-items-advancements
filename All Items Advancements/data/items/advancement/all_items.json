@@ -1021,6 +1021,36 @@
           }
         ]
       }
+    },
+    "oak_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_sign"
+          }
+        ]
+      }
+    },
+    "ladder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ladder"
+          }
+        ]
+      }
+    },
+    "oak_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_door"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1224,9 +1254,15 @@
       "cooked_porkchop"
     ], [
       "painting"
+    ], [
+      "golden_apple"
+    ], [
+      "oak_sign"
+    ], [
+      "ladder"
     ],
     [
-      "golden_apple"
+      "oak_door"
     ]
   ],
   "sends_telemetry_event": true

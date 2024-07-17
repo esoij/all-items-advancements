@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_planks",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sign"
+    },
+    "title": "Oak Sign",
+    "description": "Obtain Oak Sign",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oak_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_sign"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_sign"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
