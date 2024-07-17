@@ -1,0 +1,32 @@
+{
+  "parent": "items:diamond",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet"
+    },
+    "title": "Diamond Helmet",
+    "description": "Obtain Diamond Helmet",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamond_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_helmet"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_helmet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

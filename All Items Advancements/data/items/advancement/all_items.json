@@ -881,6 +881,86 @@
           }
         ]
       }
+    },
+    "diamond_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_helmet"
+          }
+        ]
+      }
+    },
+    "diamond_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_chestplate"
+          }
+        ]
+      }
+    },
+    "diamond_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_leggings"
+          }
+        ]
+      }
+    },
+    "diamond_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_boots"
+          }
+        ]
+      }
+    },
+    "golden_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_helmet"
+          }
+        ]
+      }
+    },
+    "golden_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_chestplate"
+          }
+        ]
+      }
+    },
+    "golden_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_leggings"
+          }
+        ]
+      }
+    },
+    "golden_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_boots"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1056,9 +1136,25 @@
       "diamond_hoe"
     ], [
       "wheat_seeds"
+    ], [
+      "wheat"
+    ], [
+      "diamond_helmet"
+    ], [
+      "diamond_chestplate"
+    ], [
+      "diamond_leggings"
+    ], [
+      "diamond_boots"
+    ], [
+      "golden_helmet"
+    ], [
+      "golden_chestplate"
+    ], [
+      "golden_leggings"
     ],
     [
-      "wheat"
+      "golden_boots"
     ]
   ],
   "sends_telemetry_event": true

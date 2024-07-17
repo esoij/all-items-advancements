@@ -1,0 +1,32 @@
+{
+  "parent": "items:gold_ingot",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": "Golden Chestplate",
+    "description": "Obtain Golden Chestplate",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "golden_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_chestplate"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "golden_chestplate"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
