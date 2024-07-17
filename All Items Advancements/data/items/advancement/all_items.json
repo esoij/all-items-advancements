@@ -1001,6 +1001,16 @@
           }
         ]
       }
+    },
+    "painting": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:painting"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1200,9 +1210,11 @@
       "flint"
     ], [
       "raw_porkchop"
+    ], [
+      "cooked_porkchop"
     ],
     [
-      "cooked_porkchop"
+      "painting"
     ]
   ],
   "sends_telemetry_event": true

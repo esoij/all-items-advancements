@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:painting"
+    },
+    "title": "Painting",
+    "description": "Obtain Painting",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "painting": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:painting"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "painting"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
