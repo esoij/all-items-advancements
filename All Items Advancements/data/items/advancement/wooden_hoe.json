@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_planks",
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_hoe"
+    },
+    "title": "Wooden Hoe",
+    "description": "Obtain Wooden Hoe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wooden_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wooden_hoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

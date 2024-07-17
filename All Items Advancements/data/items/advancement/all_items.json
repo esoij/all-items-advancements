@@ -801,6 +801,86 @@
           }
         ]
       }
+    },
+    "bread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bread"
+          }
+        ]
+      }
+    },
+    "wooden_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_hoe"
+          }
+        ]
+      }
+    },
+    "stone_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe"
+          }
+        ]
+      }
+    },
+    "iron_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_hoe"
+          }
+        ]
+      }
+    },
+    "golden_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_hoe"
+          }
+        ]
+      }
+    },
+    "diamond_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_hoe"
+          }
+        ]
+      }
+    },
+    "wheat_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wheat_seeds"
+          }
+        ]
+      }
+    },
+    "wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wheat"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -960,9 +1040,25 @@
       "gunpowder"
     ], [
       "string"
+    ], [
+      "feather"
+    ], [
+      "bread"
+    ], [
+      "wooden_hoe"
+    ], [
+      "stone_hoe"
+    ], [
+      "iron_hoe"
+    ], [
+      "golden_hoe"
+    ], [
+      "diamond_hoe"
+    ], [
+      "wheat_seeds"
     ],
     [
-      "feather"
+      "wheat"
     ]
   ],
   "sends_telemetry_event": true

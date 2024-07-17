@@ -1,0 +1,32 @@
+{
+  "parent": "items:cobblestone",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_hoe"
+    },
+    "title": "Stone Hoe",
+    "description": "Obtain Stone Hoe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stone_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_hoe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stone_hoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

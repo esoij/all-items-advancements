@@ -1,0 +1,32 @@
+{
+  "parent": "items:wheat",
+  "display": {
+    "icon": {
+      "id": "minecraft:bread"
+    },
+    "title": "Bread",
+    "description": "Obtain Bread",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bread": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bread"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bread"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

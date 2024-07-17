@@ -1,0 +1,32 @@
+{
+  "parent": "items:diamond",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
+    },
+    "title": "Diamond Hoe",
+    "description": "Obtain Diamond Hoe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diamond_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_hoe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond_hoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

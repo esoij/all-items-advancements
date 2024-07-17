@@ -21,11 +21,24 @@
           }
         ]
       }
+    },
+    "farmland": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:farmland"
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
       "bedrock"
+    ],
+    [
+      "farmland"
     ]
   ],
   "sends_telemetry_event": true
