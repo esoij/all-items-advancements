@@ -1,5 +1,5 @@
 {
-  "parent": "items:air",
+  "parent": "items:rail",
   "display": {
     "icon": {
       "id": "minecraft:minecart"

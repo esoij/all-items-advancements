@@ -6,7 +6,7 @@
     },
     "title": "Diamond Hoe",
     "description": "Obtain Diamond Hoe",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

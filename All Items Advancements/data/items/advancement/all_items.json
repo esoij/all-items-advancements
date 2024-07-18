@@ -1,5 +1,5 @@
 {
-  "parent": "items:gold_block",
+  "parent": "items:lava_bucket",
   "display": {
     "icon": {
       "id": "minecraft:nether_star"

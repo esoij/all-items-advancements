@@ -1,5 +1,5 @@
 {
-  "parent": "items:iron_ore",
+  "parent": "items:iron_ingot",
   "display": {
     "icon": {
       "id": "minecraft:flint_and_steel"

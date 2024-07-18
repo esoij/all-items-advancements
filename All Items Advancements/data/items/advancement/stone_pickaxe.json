@@ -6,7 +6,7 @@
     },
     "title": "Stone Pickaxe",
     "description": "Obtain Stone Pickaxe",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

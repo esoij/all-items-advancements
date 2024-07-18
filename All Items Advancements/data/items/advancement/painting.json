@@ -1,5 +1,5 @@
 {
-  "parent": "items:air",
+  "parent": "items:stick",
   "display": {
     "icon": {
       "id": "minecraft:painting"
