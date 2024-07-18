@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:ice"
+    },
+    "title": "Ice",
+    "description": "Obtain Ice",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ice"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ice"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1211,6 +1211,26 @@
           }
         ]
       }
+    },
+    "ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ice"
+          }
+        ]
+      }
+    },
+    "snow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:snow"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1452,9 +1472,13 @@
       "stone_button"
     ], [
       "oak_pressure_plate"
+    ], [
+      "stone_pressure_plate"
+    ], [
+      "ice"
     ],
     [
-      "stone_pressure_plate"
+      "snow"
     ]
   ],
   "sends_telemetry_event": true
