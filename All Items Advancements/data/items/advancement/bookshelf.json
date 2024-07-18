@@ -1,5 +1,5 @@
 {
-  "parent": "items:oak_planks",
+  "parent": "items:book",
   "display": {
     "icon": {
       "id": "minecraft:bookshelf"
