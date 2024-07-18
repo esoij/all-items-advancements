@@ -1,5 +1,5 @@
 {
-  "parent": "items:air",
+  "parent": "items:oak_planks",
   "display": {
     "icon": {
       "id": "minecraft:oak_door"
