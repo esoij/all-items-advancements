@@ -1101,6 +1101,16 @@
           }
         ]
       }
+    },
+    "saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:saddle"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1320,9 +1330,11 @@
       "lava_bucket"
     ], [
       "rail"
+    ], [
+      "minecart"
     ],
     [
-      "minecart"
+      "saddle"
     ]
   ],
   "sends_telemetry_event": true

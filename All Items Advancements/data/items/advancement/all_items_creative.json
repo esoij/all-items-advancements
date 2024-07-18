@@ -31,6 +31,16 @@
           }
         ]
       }
+    },
+    "spawner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spawner"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -39,6 +49,9 @@
     ],
     [
       "farmland"
+    ],
+    [
+      "spawner"
     ]
   ],
   "sends_telemetry_event": true

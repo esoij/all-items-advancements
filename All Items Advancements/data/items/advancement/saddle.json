@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": "Saddle",
+    "description": "Obtain Saddle",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:saddle"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "saddle"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
