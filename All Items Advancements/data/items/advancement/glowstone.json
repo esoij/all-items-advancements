@@ -1,0 +1,32 @@
+{
+  "parent": "items:netherrack",
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone"
+    },
+    "title": "Glowstone",
+    "description": "Obtain Glowstone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glowstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "glowstone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "items:lava_bucket",
+  "parent": "items:chest_minecart",
   "display": {
     "icon": {
       "id": "minecraft:nether_star"
@@ -1451,6 +1451,96 @@
           }
         ]
       }
+    },
+    "netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherrack"
+          }
+        ]
+      }
+    },
+    "soul_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_sand"
+          }
+        ]
+      }
+    },
+    "glowstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone"
+          }
+        ]
+      }
+    },
+    "pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pumpkin"
+          }
+        ]
+      }
+    },
+    "jack_o_lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jack_o_lantern"
+          }
+        ]
+      }
+    },
+    "clock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:clock"
+          }
+        ]
+      }
+    },
+    "glowstone_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust"
+          }
+        ]
+      }
+    },
+    "cooked_cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_cod"
+          }
+        ]
+      }
+    },
+    "cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cod"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1740,9 +1830,27 @@
       "oak_fence"
     ], [
       "compass"
+    ], [
+      "fishing_rod"
+    ], [
+      "netherrack"
+    ], [
+      "soul_sand"
+    ], [
+      "glowstone"
+    ], [
+      "pumpkin"
+    ], [
+      "jack_o_lantern"
+    ], [
+      "clock"
+    ], [
+      "glowstone_dust"
+    ], [
+      "cooked_cod"
     ],
     [
-      "fishing_rod"
+      "cod"
     ]
   ],
   "sends_telemetry_event": true

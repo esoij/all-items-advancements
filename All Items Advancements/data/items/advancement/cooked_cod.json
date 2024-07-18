@@ -1,0 +1,32 @@
+{
+  "parent": "items:cod",
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_cod"
+    },
+    "title": "Cooked Cod",
+    "description": "Obtain Cooked Cod",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cooked_cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_cod"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cooked_cod"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

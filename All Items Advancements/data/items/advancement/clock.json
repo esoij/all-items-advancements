@@ -1,0 +1,32 @@
+{
+  "parent": "items:gold_ingot",
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": "Clock",
+    "description": "Obtain Clock",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "clock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:clock"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "clock"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

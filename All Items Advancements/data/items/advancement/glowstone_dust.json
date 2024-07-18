@@ -1,0 +1,32 @@
+{
+  "parent": "items:glowstone",
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust"
+    },
+    "title": "Glowstone Dust",
+    "description": "Obtain Glowstone Dust",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "glowstone_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone_dust"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "glowstone_dust"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

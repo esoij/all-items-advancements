@@ -1,0 +1,32 @@
+{
+  "parent": "items:pumpkin",
+  "display": {
+    "icon": {
+      "id": "minecraft:jack_o_lantern"
+    },
+    "title": "Jack O Lantern",
+    "description": "Obtain Jack O Lantern",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jack_o_lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jack_o_lantern"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jack_o_lantern"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherrack"
+    },
+    "title": "Netherrack",
+    "description": "Obtain Netherrack",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherrack"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "netherrack"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:netherrack",
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": "Soul Sand",
+    "description": "Obtain Soul Sand",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "soul_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_sand"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "soul_sand"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
