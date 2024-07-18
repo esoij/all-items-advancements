@@ -1111,6 +1111,26 @@
           }
         ]
       }
+    },
+    "cobblestone_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobblestone_stairs"
+          }
+        ]
+      }
+    },
+    "oak_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_stairs"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1332,9 +1352,13 @@
       "rail"
     ], [
       "minecart"
+    ], [
+      "saddle"
+    ], [
+      "cobblestone_stairs"
     ],
     [
-      "saddle"
+      "oak_stairs"
     ]
   ],
   "sends_telemetry_event": true
