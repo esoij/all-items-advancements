@@ -1352,12 +1352,12 @@
         ]
       }
     },
-    "slimeball": {
+    "slime_ball": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:slimeball"
+            "items": "minecraft:slime_ball"
           }
         ]
       }
@@ -1634,7 +1634,7 @@
       "brick"
     ],
     [
-      "slimeball"
+      "slime_ball"
     ]
   ],
   "sends_telemetry_event": true

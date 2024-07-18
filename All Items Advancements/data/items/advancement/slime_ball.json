@@ -2,22 +2,22 @@
   "parent": "items:air",
   "display": {
     "icon": {
-      "id": "minecraft:slimeball"
+      "id": "minecraft:slime_ball"
     },
-    "title": "Slimeball",
-    "description": "Obtain Slimeball",
+    "title": "Slime Ball",
+    "description": "Obtain Slime Ball",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "slimeball": {
+    "slime_ball": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:slimeball"
+            "items": "minecraft:slime_ball"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "slimeball"
+      "slime_ball"
     ]
   ],
   "sends_telemetry_event": true
