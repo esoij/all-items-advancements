@@ -1,0 +1,32 @@
+{
+  "parent": "items:redstone",
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_torch"
+    },
+    "title": "Redstone Torch",
+    "description": "Obtain Redstone Torch",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "redstone_torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone_torch"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "redstone_torch"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

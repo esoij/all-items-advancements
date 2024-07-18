@@ -1,0 +1,32 @@
+{
+  "parent": "items:redstone_ore",
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": "Redstone",
+    "description": "Obtain Redstone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "redstone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

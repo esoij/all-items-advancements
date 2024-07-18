@@ -1,0 +1,32 @@
+{
+  "parent": "items:iron_ingot",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_door"
+    },
+    "title": "Iron Door",
+    "description": "Obtain Iron Door",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iron_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_door"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iron_door"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1131,6 +1131,86 @@
           }
         ]
       }
+    },
+    "iron_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_door"
+          }
+        ]
+      }
+    },
+    "lever": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lever"
+          }
+        ]
+      }
+    },
+    "redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone"
+          }
+        ]
+      }
+    },
+    "redstone_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone_ore"
+          }
+        ]
+      }
+    },
+    "redstone_torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:redstone_torch"
+          }
+        ]
+      }
+    },
+    "stone_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_button"
+          }
+        ]
+      }
+    },
+    "oak_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_pressure_plate"
+          }
+        ]
+      }
+    },
+    "stone_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pressure_plate"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1356,9 +1436,25 @@
       "saddle"
     ], [
       "cobblestone_stairs"
+    ], [
+      "oak_stairs"
+    ], [
+      "iron_door"
+    ], [
+      "lever"
+    ], [
+      "redstone"
+    ], [
+      "redstone_ore"
+    ], [
+      "redstone_torch"
+    ], [
+      "stone_button"
+    ], [
+      "oak_pressure_plate"
     ],
     [
-      "oak_stairs"
+      "stone_pressure_plate"
     ]
   ],
   "sends_telemetry_event": true

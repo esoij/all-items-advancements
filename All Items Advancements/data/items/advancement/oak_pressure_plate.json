@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_planks",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_pressure_plate"
+    },
+    "title": "Oak Pressure Plate",
+    "description": "Obtain Oak Pressure Plate",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oak_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_pressure_plate"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_pressure_plate"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
