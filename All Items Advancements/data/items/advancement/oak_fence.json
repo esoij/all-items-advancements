@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_planks",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_fence"
+    },
+    "title": "Oak Fence",
+    "description": "Obtain Oak Fence",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oak_fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_fence"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_fence"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
