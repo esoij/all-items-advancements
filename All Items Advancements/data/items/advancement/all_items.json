@@ -1271,6 +1271,26 @@
           }
         ]
       }
+    },
+    "leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather"
+          }
+        ]
+      }
+    },
+    "milk_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:milk_bucket"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1524,9 +1544,13 @@
       "snowball"
     ], [
       "cactus"
+    ], [
+      "oak_boat"
+    ], [
+      "leather"
     ],
     [
-      "oak_boat"
+      "milk_bucket"
     ]
   ],
   "sends_telemetry_event": true

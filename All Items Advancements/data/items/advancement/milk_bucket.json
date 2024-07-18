@@ -1,23 +1,23 @@
 {
-  "parent": "items:leather",
+  "parent": "items:bucket",
   "display": {
     "icon": {
-      "id": "minecraft:leather_boots"
+      "id": "minecraft:milk_bucket"
     },
-    "title": "Leather Boots",
-    "description": "Obtain Leather Boots",
+    "title": "Milk Bucket",
+    "description": "Obtain Milk Bucket",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "leather_boots": {
+    "milk_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:leather_boots"
+            "items": "minecraft:milk_bucket"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "leather_boots"
+      "milk_bucket"
     ]
   ],
   "sends_telemetry_event": true
