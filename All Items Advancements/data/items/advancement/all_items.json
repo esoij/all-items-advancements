@@ -1361,6 +1361,66 @@
           }
         ]
       }
+    },
+    "jukebox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jukebox"
+          }
+        ]
+      }
+    },
+    "egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:egg"
+          }
+        ]
+      }
+    },
+    "music_disc_13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_13"
+          }
+        ]
+      }
+    },
+    "music_disc_cat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_cat"
+          }
+        ]
+      }
+    },
+    "furnace_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:furnace_minecart"
+          }
+        ]
+      }
+    },
+    "chest_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chest_minecart"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1632,9 +1692,21 @@
       "clay_ball"
     ], [
       "brick"
+    ], [
+      "slime_ball"
+    ], [
+      "jukebox"
+    ], [
+      "egg"
+    ], [
+      "music_disc_13"
+    ], [
+      "music_disc_cat"
+    ], [
+      "furnace_minecart"
     ],
     [
-      "slime_ball"
+      "chest_minecart"
     ]
   ],
   "sends_telemetry_event": true

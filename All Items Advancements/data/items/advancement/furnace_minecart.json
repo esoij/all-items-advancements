@@ -1,0 +1,32 @@
+{
+  "parent": "items:minecart",
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace_minecart"
+    },
+    "title": "Furnace Minecart",
+    "description": "Obtain Furnace Minecart",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "furnace_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:furnace_minecart"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "furnace_minecart"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

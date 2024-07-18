@@ -1,0 +1,32 @@
+{
+  "parent": "items:jukebox",
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_cat"
+    },
+    "title": "Music Disc Cat",
+    "description": "Obtain Music Disc Cat",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "music_disc_cat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:music_disc_cat"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "music_disc_cat"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

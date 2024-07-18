@@ -1,0 +1,32 @@
+{
+  "parent": "items:minecart",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest_minecart"
+    },
+    "title": "Chest Minecart",
+    "description": "Obtain Chest Minecart",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chest_minecart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chest_minecart"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "chest_minecart"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

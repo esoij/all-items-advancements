@@ -1,0 +1,32 @@
+{
+  "parent": "items:diamond",
+  "display": {
+    "icon": {
+      "id": "minecraft:jukebox"
+    },
+    "title": "Jukebox",
+    "description": "Obtain Jukebox",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jukebox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jukebox"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jukebox"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
