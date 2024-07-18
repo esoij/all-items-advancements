@@ -1431,6 +1431,16 @@
           }
         ]
       }
+    },
+    "compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:compass"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1716,9 +1726,11 @@
       "furnace_minecart"
     ], [
       "chest_minecart"
+    ], [
+      "oak_fence"
     ],
     [
-      "oak_fence"
+      "compass"
     ]
   ],
   "sends_telemetry_event": true

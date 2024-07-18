@@ -1,0 +1,32 @@
+{
+  "parent": "items:redstone",
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": "Compass",
+    "description": "Obtain Compass",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:compass"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "compass"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
