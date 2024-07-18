@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_log",
+  "display": {
+    "icon": {
+      "id": "minecraft:charcoal"
+    },
+    "title": "Charcoal",
+    "description": "Obtain Charcoal",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "charcoal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:charcoal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "charcoal"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

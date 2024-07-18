@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": "Bone",
+    "description": "Obtain Bone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

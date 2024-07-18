@@ -1,0 +1,32 @@
+{
+  "parent": "items:lapis_ore",
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_lazuli"
+    },
+    "title": "Lapis Lazuli",
+    "description": "Obtain Lapis Lazuli",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lapis_lazuli": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_lazuli"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lapis_lazuli"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

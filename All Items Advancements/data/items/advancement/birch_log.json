@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_log"
+    },
+    "title": "Birch Log",
+    "description": "Obtain Birch Log",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "birch_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "birch_log"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

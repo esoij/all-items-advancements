@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_dye"
+    },
+    "title": "Yellow Dye",
+    "description": "Obtain Yellow Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yellow_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:yellow_dye"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "yellow_dye"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:ink_sac"
+    },
+    "title": "Ink Sac",
+    "description": "Obtain Ink Sac",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ink_sac": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ink_sac"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ink_sac"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

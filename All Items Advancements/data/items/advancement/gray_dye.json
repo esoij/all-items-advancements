@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:gray_dye"
+    },
+    "title": "Gray Dye",
+    "description": "Obtain Gray Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gray_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gray_dye"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gray_dye"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:cyan_dye"
+    },
+    "title": "Cyan Dye",
+    "description": "Obtain Cyan Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cyan_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cyan_dye"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cyan_dye"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

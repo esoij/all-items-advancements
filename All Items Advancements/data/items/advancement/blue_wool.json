@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_wool"
+    },
+    "title": "Blue Wool",
+    "description": "Obtain Blue Wool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blue_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blue_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blue_wool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

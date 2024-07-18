@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_wool"
+    },
+    "title": "Brown Wool",
+    "description": "Obtain Brown Wool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "brown_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "brown_wool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:cocoa_beans"
+    },
+    "title": "Cocoa Beans",
+    "description": "Obtain Cocoa Beans",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cocoa_beans": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cocoa_beans"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cocoa_beans"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

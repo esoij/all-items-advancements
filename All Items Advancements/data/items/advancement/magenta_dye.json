@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:magenta_dye"
+    },
+    "title": "Magenta Dye",
+    "description": "Obtain Magenta Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "magenta_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magenta_dye"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "magenta_dye"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

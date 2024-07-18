@@ -1,0 +1,32 @@
+{
+  "parent": "items:pink_dye",
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_wool"
+    },
+    "title": "Pink Wool",
+    "description": "Obtain Pink Wool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pink_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pink_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pink_wool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

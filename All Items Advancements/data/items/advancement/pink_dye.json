@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_dye"
+    },
+    "title": "Pink Dye",
+    "description": "Obtain Pink Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pink_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pink_dye"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pink_dye"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

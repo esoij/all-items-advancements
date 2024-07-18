@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_dye"
+    },
+    "title": "Orange Dye",
+    "description": "Obtain Orange Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "orange_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:orange_dye"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "orange_dye"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:redstone",
+  "display": {
+    "icon": {
+      "id": "minecraft:dispenser"
+    },
+    "title": "Dispenser",
+    "description": "Obtain Dispenser",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dispenser": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dispenser"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dispenser"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:light_gray_dye",
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_wool"
+    },
+    "title": "Light Gray Wool",
+    "description": "Obtain Light Gray Wool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "light_gray_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "light_gray_wool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

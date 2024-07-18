@@ -1,0 +1,32 @@
+{
+  "parent": "items:redstone",
+  "display": {
+    "icon": {
+      "id": "minecraft:note_block"
+    },
+    "title": "Note Block",
+    "description": "Obtain Note Block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "note_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:note_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "note_block"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

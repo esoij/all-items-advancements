@@ -1,0 +1,32 @@
+{
+  "parent": "items:bone",
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_meal"
+    },
+    "title": "Bone Meal",
+    "description": "Obtain Bone Meal",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bone_meal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone_meal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bone_meal"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:purple_dye",
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_wool"
+    },
+    "title": "Purple Wool",
+    "description": "Obtain Purple Wool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "purple_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purple_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "purple_wool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

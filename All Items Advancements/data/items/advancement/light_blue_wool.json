@@ -1,0 +1,32 @@
+{
+  "parent": "items:light_blue_dye",
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_wool"
+    },
+    "title": "Light Blue Wool",
+    "description": "Obtain Light Blue Wool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "light_blue_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_blue_wool"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "light_blue_wool"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

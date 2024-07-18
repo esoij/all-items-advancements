@@ -1541,6 +1541,446 @@
           }
         ]
       }
+    },
+    "cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cake"
+          }
+        ]
+      }
+    },
+    "dispenser": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dispenser"
+          }
+        ]
+      }
+    },
+    "lapis_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_block"
+          }
+        ]
+      }
+    },
+    "lapis_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_ore"
+          }
+        ]
+      }
+    },
+    "note_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:note_block"
+          }
+        ]
+      }
+    },
+    "sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sandstone"
+          }
+        ]
+      }
+    },
+    "spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_log"
+          }
+        ]
+      }
+    },
+    "birch_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_log"
+          }
+        ]
+      }
+    },
+    "spruce_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_leaves"
+          }
+        ]
+      }
+    },
+    "birch_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_leaves"
+          }
+        ]
+      }
+    },
+    "light_gray_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_wool"
+          }
+        ]
+      }
+    },
+    "gray_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gray_wool"
+          }
+        ]
+      }
+    },
+    "black_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:black_wool"
+          }
+        ]
+      }
+    },
+    "brown_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_wool"
+          }
+        ]
+      }
+    },
+    "red_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_wool"
+          }
+        ]
+      }
+    },
+    "orange_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:orange_wool"
+          }
+        ]
+      }
+    },
+    "charcoal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:charcoal"
+          }
+        ]
+      }
+    },
+    "yellow_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:yellow_wool"
+          }
+        ]
+      }
+    },
+    "lime_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lime_wool"
+          }
+        ]
+      }
+    },
+    "green_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:green_wool"
+          }
+        ]
+      }
+    },
+    "cyan_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cyan_wool"
+          }
+        ]
+      }
+    },
+    "light_blue_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_blue_wool"
+          }
+        ]
+      }
+    },
+    "blue_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blue_wool"
+          }
+        ]
+      }
+    },
+    "purple_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purple_wool"
+          }
+        ]
+      }
+    },
+    "magenta_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magenta_wool"
+          }
+        ]
+      }
+    },
+    "pink_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pink_wool"
+          }
+        ]
+      }
+    },
+    "bone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone"
+          }
+        ]
+      }
+    },
+    "bone_meal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone_meal"
+          }
+        ]
+      }
+    },
+    "lapis_lazuli": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lapis_lazuli"
+          }
+        ]
+      }
+    },
+    "cocoa_beans": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cocoa_beans"
+          }
+        ]
+      }
+    },
+    "ink_sac": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ink_sac"
+          }
+        ]
+      }
+    },
+    "light_gray_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_dye"
+          }
+        ]
+      }
+    },
+    "gray_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gray_dye"
+          }
+        ]
+      }
+    },
+    "red_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_dye"
+          }
+        ]
+      }
+    },
+    "orange_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:orange_dye"
+          }
+        ]
+      }
+    },
+    "yellow_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:yellow_dye"
+          }
+        ]
+      }
+    },
+    "lime_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lime_dye"
+          }
+        ]
+      }
+    },
+    "green_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:green_dye"
+          }
+        ]
+      }
+    },
+    "cyan_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cyan_dye"
+          }
+        ]
+      }
+    },
+    "light_blue_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_blue_dye"
+          }
+        ]
+      }
+    },
+    "purple_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purple_dye"
+          }
+        ]
+      }
+    },
+    "magenta_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magenta_dye"
+          }
+        ]
+      }
+    },
+    "pink_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pink_dye"
+          }
+        ]
+      }
+    },
+    "sugar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sugar"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1848,9 +2288,97 @@
       "glowstone_dust"
     ], [
       "cooked_cod"
+    ], [
+      "cod"
+    ], [
+      "cake"
+    ], [
+      "dispenser"
+    ], [
+      "lapis_block"
+    ], [
+      "lapis_ore"
+    ], [
+      "note_block"
+    ], [
+      "sandstone"
+    ], [
+      "spruce_log"
+    ], [
+      "birch_log"
+    ], [
+      "spruce_leaves"
+    ], [
+      "birch_leaves"
+    ], [
+      "light_gray_wool"
+    ], [
+      "gray_wool"
+    ], [
+      "black_wool"
+    ], [
+      "brown_wool"
+    ], [
+      "red_wool"
+    ], [
+      "orange_wool"
+    ], [
+      "charcoal"
+    ], [
+      "yellow_wool"
+    ], [
+      "lime_wool"
+    ], [
+      "green_wool"
+    ], [
+      "cyan_wool"
+    ], [
+      "light_blue_wool"
+    ], [
+      "blue_wool"
+    ], [
+      "purple_wool"
+    ], [
+      "magenta_wool"
+    ], [
+      "pink_wool"
+    ], [
+      "bone"
+    ], [
+      "bone_meal"
+    ], [
+      "lapis_lazuli"
+    ], [
+      "cocoa_beans"
+    ], [
+      "ink_sac"
+    ], [
+      "light_gray_dye"
+    ], [
+      "gray_dye"
+    ], [
+      "red_dye"
+    ], [
+      "orange_dye"
+    ], [
+      "yellow_dye"
+    ], [
+      "lime_dye"
+    ], [
+      "green_dye"
+    ], [
+      "cyan_dye"
+    ], [
+      "light_blue_dye"
+    ], [
+      "purple_dye"
+    ], [
+      "magenta_dye"
+    ], [
+      "pink_dye"
     ],
     [
-      "cod"
+      "sugar"
     ]
   ],
   "sends_telemetry_event": true

@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_log"
+    },
+    "title": "Spruce Log",
+    "description": "Obtain Spruce Log",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spruce_log"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

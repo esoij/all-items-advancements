@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_dye"
+    },
+    "title": "Light Blue Dye",
+    "description": "Obtain Light Blue Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "light_blue_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_blue_dye"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "light_blue_dye"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:sand",
+  "display": {
+    "icon": {
+      "id": "minecraft:sandstone"
+    },
+    "title": "Sandstone",
+    "description": "Obtain Sandstone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sandstone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sandstone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "items:air",
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_dye"
+    },
+    "title": "Purple Dye",
+    "description": "Obtain Purple Dye",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "purple_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:purple_dye"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "purple_dye"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
