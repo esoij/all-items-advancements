@@ -1,23 +1,23 @@
 {
-  "parent": "items:brick",
+  "parent": "items:paper",
   "display": {
     "icon": {
-      "id": "minecraft:bricks"
+      "id": "minecraft:book"
     },
-    "title": "Bricks",
-    "description": "Obtain Bricks",
+    "title": "Book",
+    "description": "Obtain Book",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "bricks": {
+    "book": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bricks"
+            "items": "minecraft:book"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "bricks"
+      "book"
     ]
   ],
   "sends_telemetry_event": true

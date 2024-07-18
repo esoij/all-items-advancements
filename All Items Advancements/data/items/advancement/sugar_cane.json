@@ -1,23 +1,23 @@
 {
-  "parent": "items:brick",
+  "parent": "items:sand",
   "display": {
     "icon": {
-      "id": "minecraft:bricks"
+      "id": "minecraft:sugar_cane"
     },
-    "title": "Bricks",
-    "description": "Obtain Bricks",
+    "title": "Sugar Cane",
+    "description": "Obtain Sugar Cane",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "bricks": {
+    "sugar_cane": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bricks"
+            "items": "minecraft:sugar_cane"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "bricks"
+      "sugar_cane"
     ]
   ],
   "sends_telemetry_event": true

@@ -1,23 +1,23 @@
 {
-  "parent": "items:brick",
+  "parent": "items:air",
   "display": {
     "icon": {
-      "id": "minecraft:bricks"
+      "id": "minecraft:slimeball"
     },
-    "title": "Bricks",
-    "description": "Obtain Bricks",
+    "title": "Slimeball",
+    "description": "Obtain Slimeball",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "bricks": {
+    "slimeball": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bricks"
+            "items": "minecraft:slimeball"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "bricks"
+      "slimeball"
     ]
   ],
   "sends_telemetry_event": true

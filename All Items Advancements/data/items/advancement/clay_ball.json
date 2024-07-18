@@ -1,23 +1,23 @@
 {
-  "parent": "items:brick",
+  "parent": "items:clay",
   "display": {
     "icon": {
-      "id": "minecraft:bricks"
+      "id": "minecraft:clay_ball"
     },
-    "title": "Bricks",
-    "description": "Obtain Bricks",
+    "title": "Clay Ball",
+    "description": "Obtain Clay Ball",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "bricks": {
+    "clay_ball": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bricks"
+            "items": "minecraft:clay_ball"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "bricks"
+      "clay_ball"
     ]
   ],
   "sends_telemetry_event": true

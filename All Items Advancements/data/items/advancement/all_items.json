@@ -1291,6 +1291,76 @@
           }
         ]
       }
+    },
+    "sugar_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sugar_cane"
+          }
+        ]
+      }
+    },
+    "clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:clay"
+          }
+        ]
+      }
+    },
+    "paper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:paper"
+          }
+        ]
+      }
+    },
+    "book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:book"
+          }
+        ]
+      }
+    },
+    "clay_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:clay_ball"
+          }
+        ]
+      }
+    },
+    "brick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brick"
+          }
+        ]
+      }
+    },
+    "slimeball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:slimeball"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1548,9 +1618,23 @@
       "oak_boat"
     ], [
       "leather"
+    ], [
+      "milk_bucket"
+    ], [
+      "sugar_cane"
+    ], [
+      "clay"
+    ], [
+      "paper"
+    ], [
+      "book"
+    ], [
+      "clay_ball"
+    ], [
+      "brick"
     ],
     [
-      "milk_bucket"
+      "slimeball"
     ]
   ],
   "sends_telemetry_event": true

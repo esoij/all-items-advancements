@@ -1,23 +1,23 @@
 {
-  "parent": "items:brick",
+  "parent": "items:sugar_cane",
   "display": {
     "icon": {
-      "id": "minecraft:bricks"
+      "id": "minecraft:paper"
     },
-    "title": "Bricks",
-    "description": "Obtain Bricks",
+    "title": "Paper",
+    "description": "Obtain Paper",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "bricks": {
+    "paper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:bricks"
+            "items": "minecraft:paper"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "bricks"
+      "paper"
     ]
   ],
   "sends_telemetry_event": true
