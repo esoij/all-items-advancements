@@ -1,0 +1,32 @@
+{
+  "parent": "items:oak_planks",
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": "Oak Boat",
+    "description": "Obtain Oak Boat",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oak_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_boat"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "oak_boat"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

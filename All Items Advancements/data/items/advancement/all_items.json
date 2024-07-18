@@ -1251,6 +1251,26 @@
           }
         ]
       }
+    },
+    "cactus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cactus"
+          }
+        ]
+      }
+    },
+    "oak_boat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_boat"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1500,9 +1520,13 @@
       "snow"
     ], [
       "snow_block"
+    ], [
+      "snowball"
+    ], [
+      "cactus"
     ],
     [
-      "snowball"
+      "oak_boat"
     ]
   ],
   "sends_telemetry_event": true

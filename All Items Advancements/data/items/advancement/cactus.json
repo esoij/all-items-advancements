@@ -1,0 +1,32 @@
+{
+  "parent": "items:sand",
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus"
+    },
+    "title": "Cactus",
+    "description": "Obtain Cactus",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cactus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cactus"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cactus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
