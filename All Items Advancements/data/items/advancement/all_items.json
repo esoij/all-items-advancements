@@ -1441,6 +1441,16 @@
           }
         ]
       }
+    },
+    "fishing_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fishing_rod"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1728,9 +1738,11 @@
       "chest_minecart"
     ], [
       "oak_fence"
+    ], [
+      "compass"
     ],
     [
-      "compass"
+      "fishing_rod"
     ]
   ],
   "sends_telemetry_event": true
