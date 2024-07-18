@@ -1,23 +1,23 @@
 {
-  "parent": "items:snow_block",
+  "parent": "items:air",
   "display": {
     "icon": {
-      "id": "minecraft:snow"
+      "id": "minecraft:snow_block"
     },
-    "title": "Snow",
-    "description": "Obtain Snow",
+    "title": "Snow Block",
+    "description": "Obtain Snow Block",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "snow": {
+    "snow_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:snow"
+            "items": "minecraft:snow_block"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "snow"
+      "snow_block"
     ]
   ],
   "sends_telemetry_event": true

@@ -1231,6 +1231,26 @@
           }
         ]
       }
+    },
+    "snow_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:snow_block"
+          }
+        ]
+      }
+    },
+    "snowball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:snowball"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -1476,9 +1496,13 @@
       "stone_pressure_plate"
     ], [
       "ice"
+    ], [
+      "snow"
+    ], [
+      "snow_block"
     ],
     [
-      "snow"
+      "snowball"
     ]
   ],
   "sends_telemetry_event": true
